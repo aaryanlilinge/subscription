@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.card-container{
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+.card{
+    background-color: aliceblue;
+    width: 25%;
+    height: 90%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px darkgray;
+    
+}
+
+#card-1> #s1{
+ background-image: linear-gradient( 115.3deg,  rgb(248, 14, 96) 9.5%, rgb(250, 147, 13) 82.9% );
+ padding: 20px;
+}
+
+#s1>h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: white;
+}
+
+#s1 > .line{
+    border: 1px solid white;
+    width: 85%;
+    margin: 5px auto;
+}
+
+#s1>p{
+    text-align: center;
+    font-size: 13px;
+    padding: 5px 10px;
+    color: white;
+}
+
+#s2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.price-container{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.price-container  >div:nth-child(2){
+    font-size: 80px;
+    font-weight: 800;
+}
+.price-container>div:nth-child(1){
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.price-container>div:nth-child(3){
+    font-size: 25px;
+    font-weight: 700;
+    align-self: flex-end;
+    padding-bottom: 10px;
+}
+#s2> .line{
+border: 1px solid darkgray;
+width: 50%;
+margin-bottom: 20px;
+}
+
+.features-container{
+    display:flex ;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 20px;
+
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+#card-1 .bullet{
+    background-image: linear-gradient( 115.3deg,  rgb(248, 14, 96) 9.5%, rgb(250, 147, 13) 82.9% );
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.features > p {
+    width: 80%;
+    font-size: 12px;
+}
+
+#s3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#card-1 .btn{
+     background-image: linear-gradient( 115.3deg,  rgb(248, 14, 96) 9.5%, rgb(250, 147, 13) 82.9% );
+     padding: 12px 25px;
+     border: none;
+     text-transform: uppercase;
+     font-weight: 700;
+     color: white;
+     border-radius: 8px;
+
+}
+
+#card-2> #s1{
+ background-image: linear-gradient( 109.6deg,  rgba(30,198,198,1) 11.3%, rgba(47,127,164,1) 50.1%, rgba(6,92,147,1) 100.2% );
+ padding: 20px;
+}
+
+#card-2 .bullet{
+    background-image: linear-gradient( 109.6deg,  rgba(30,198,198,1) 11.3%, rgba(47,127,164,1) 50.1%, rgba(6,92,147,1) 100.2% );
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#card-2 .btn{
+      background-image: linear-gradient( 109.6deg,  rgba(30,198,198,1) 11.3%, rgba(47,127,164,1) 50.1%, rgba(6,92,147,1) 100.2% );
+     padding: 12px 25px;
+     border: none;
+     text-transform: uppercase;
+     font-weight: 700;
+     color: white;
+     border-radius: 8px;
+
+}
+
+
+
+#card-3> #s1{
+background-image: linear-gradient( 111.8deg,  rgba(20,16,86,1) 34.4%, rgba(92,152,218,1) 96.2% );
+ padding: 20px;
+}
+
+#card-3 .bullet{
+background-image: linear-gradient( 111.8deg,  rgba(20,16,86,1) 34.4%, rgba(92,152,218,1) 96.2% );
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+#card-3 .btn{
+    background-image: linear-gradient( 111.8deg,  rgba(20,16,86,1) 34.4%, rgba(92,152,218,1) 96.2% );
+     padding: 12px 25px;
+     border: none;
+     text-transform: uppercase;
+     font-weight: 700;
+     color: white;
+     border-radius: 8px;
+
+}
+@media screen and (max-width: 530px) {
+   
+  
+    .card-container{
+        height: 240vh;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .card{
+    background-color: aliceblue;
+    width: 90%;
+    height: 40%;
+    
+    
+}
+}
+
